@@ -1,14 +1,14 @@
 import Head from 'next/head'
-import FrontLayout from "@/components/layouts/front";
+import AppLayout from "@/components/layouts/app";
 
 export default function Index() {
 	return (
-		<FrontLayout>
+		<AppLayout>
 			<Head>
-				<title>Rseon</title>
+				<title>Rseon - App</title>
 			</Head>
 
 			Coucou.
-		</FrontLayout>
+		</AppLayout>
 	)
 }

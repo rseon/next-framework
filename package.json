@@ -1,19 +1,40 @@
 {
-  "name": "akoge-next",
+  "name": "next-framework",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:push": "prisma db push",
+    "db:generate": "prisma generate",
+    "db:studio": "prisma studio"
+  },
+  "prisma": {
+    "schema": "src/services/prisma/schema.prisma",
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.16",
     "@next/font": "13.1.6",
+    "@prisma/client": "^4.10.1",
+    "date-fns": "^2.29.3",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "flowbite": "^1.6.3",
+    "flowbite-react": "^0.3.8",
+    "formik": "^2.2.9",
     "next": "13.1.6",
+    "next-superjson-plugin": "^0.5.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "superjson": "^1.12.2",
+    "yup": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "prisma": "^4.10.1",
+    "tailwindcss": "^3.2.6"
   }
 }

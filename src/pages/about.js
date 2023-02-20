@@ -1,14 +1,13 @@
 import Head from 'next/head'
 import FrontLayout from "@/components/layouts/front";
 
-export default function Index() {
+export default function Home() {
 	return (
 		<FrontLayout>
 			<Head>
-				<title>Rseon</title>
+				<title>About</title>
 			</Head>
-
-			Coucou.
+			About.
 		</FrontLayout>
 	)
 }
