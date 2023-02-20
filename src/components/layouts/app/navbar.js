@@ -8,10 +8,10 @@ export default function AppLayoutNavbar() {
 	const router = useRouter();
 
 	const routes = [
-		{
+		/*{
 			link: appRoute('/projects'),
 			label: 'Projects',
-		},
+		},*/
 		{
 			link: appRoute('/users'),
 			label: 'Users',
